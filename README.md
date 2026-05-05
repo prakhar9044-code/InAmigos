@@ -11,11 +11,8 @@
 <!-- Adaptive Logo (Changes based on user's GitHub theme) -->
 <a href="#">
   <picture>
-    <!-- 1. Paste the Dark Logo URL inside the quotes below -->
     <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/e2ff5965-7cf4-4748-a99c-7828115392f4">
-
     <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/5738c5d3-6788-4f36-bac5-086be7479737">
-    
     <img src="https://github.com/user-attachments/assets/5738c5d3-6788-4f36-bac5-086be7479737" alt="Inamigos NGO Foundation Official Logo" width="550" style="border-radius: 10px;" />
   </picture>
 </a>
@@ -42,7 +39,7 @@
 <br/>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Sparkles.png" alt="Sparkles" width="45" />
+  <h2>✨</h2>
 </div>
 
 ## ✨ About The Project
@@ -116,8 +113,3 @@ Make sure you have Node.js and npm installed on your machine.
 ```bash
 # Update npm to the latest version
 npm install npm@latest -g
-
-
-<img width="1600" height="390" alt="logo-dark" src="https://github.com/user-attachments/assets/e2ff5965-7cf4-4748-a99c-7828115392f4" />
-<img width="1600" height="390" alt="logo-light" src="https://github.com/user-attachments/assets/5738c5d3-6788-4f36-bac5-086be7479737" />
-
