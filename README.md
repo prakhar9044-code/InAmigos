@@ -8,12 +8,15 @@
 <br/>
 <br/>
 
-<!-- Adaptive Logo (Changes based on user's GitHub theme) -->
+  <!-- Adaptive Logo (Changes based on user's GitHub theme) -->
 <a href="#">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://storage.googleapis.com/bdt-asset-storage/81e5b22c-a2bc-44aa-9cda-6242551bf51a.jpeg">
-    <source media="(prefers-color-scheme: light)" srcset="https://storage.googleapis.com/bdt-asset-storage/031bd668-21d7-46dc-a070-cb41a4a6e3e5.jpeg">
-    <img src="https://storage.googleapis.com/bdt-asset-storage/031bd668-21d7-46dc-a070-cb41a4a6e3e5.jpeg" alt="Inamigos NGO Foundation Official Logo" width="550" style="border-radius: 10px;" />
+    <!-- Loads the dark background logo when the user's GitHub theme is dark -->
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/logo-dark.jpeg">
+    <!-- Loads the white background logo when the user's GitHub theme is light -->
+    <source media="(prefers-color-scheme: light)" srcset="./assets/logo-light.jpeg">
+    <!-- Fallback image -->
+    <img src="./assets/logo-light.jpeg" alt="Inamigos NGO Foundation Official Logo" width="550" style="border-radius: 10px;" />
   </picture>
 </a>
 
