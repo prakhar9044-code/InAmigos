@@ -8,15 +8,15 @@
 <br/>
 <br/>
 
-  <!-- Adaptive Logo (Changes based on user's GitHub theme) -->
+<!-- Adaptive Logo (Changes based on user's GitHub theme) -->
 <a href="#">
   <picture>
-    <!-- Loads the dark background logo when the user's GitHub theme is dark -->
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/logo-dark.jpeg">
-    <!-- Loads the white background logo when the user's GitHub theme is light -->
-    <source media="(prefers-color-scheme: light)" srcset="./assets/logo-light.jpeg">
-    <!-- Fallback image -->
-    <img src="./assets/logo-light.jpeg" alt="Inamigos NGO Foundation Official Logo" width="550" style="border-radius: 10px;" />
+    <!-- 1. Paste the Dark Logo URL inside the quotes below -->
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/e2ff5965-7cf4-4748-a99c-7828115392f4">
+
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/5738c5d3-6788-4f36-bac5-086be7479737">
+    
+    <img src="https://github.com/user-attachments/assets/5738c5d3-6788-4f36-bac5-086be7479737" alt="Inamigos NGO Foundation Official Logo" width="550" style="border-radius: 10px;" />
   </picture>
 </a>
 
@@ -116,3 +116,8 @@ Make sure you have Node.js and npm installed on your machine.
 ```bash
 # Update npm to the latest version
 npm install npm@latest -g
+
+
+<img width="1600" height="390" alt="logo-dark" src="https://github.com/user-attachments/assets/e2ff5965-7cf4-4748-a99c-7828115392f4" />
+<img width="1600" height="390" alt="logo-light" src="https://github.com/user-attachments/assets/5738c5d3-6788-4f36-bac5-086be7479737" />
+
